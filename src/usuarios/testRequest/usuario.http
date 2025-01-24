@@ -1,0 +1,28 @@
+###Lista de Usuários
+
+GET http://localhost:3000/usuarios
+
+###Obter informação de um usuário
+
+GET http://localhost:3000/usuarios/1
+
+
+###Atualizar informação de um usuário
+
+PATCH  http://localhost:3000/usuarios/1
+
+
+###Deletar informação de um usuário
+
+DELETE   http://localhost:3000/usuarios/1
+
+
+###Criar informação de um usuário
+
+POST   http://localhost:3000/usuarios/
+Content-Type: application/json
+
+{
+   "usuario": "thiago",
+   "senha": "333"
+}
